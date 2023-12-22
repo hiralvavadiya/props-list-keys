@@ -31,7 +31,7 @@ function App() {
       <h2>{obj.name} --- {obj.age}</h2>
 
 
-{/* this method is use to print or call "ALL" the objects store in the user array */}
+
       <table cellPadding={10} border={1} cellSpacing={2}>
         <tr>
           <th>No</th>
@@ -53,6 +53,8 @@ function App() {
         }
       </table>
 
+
+{/* this method is use to print or call "ALL" the objects store in the user array */}
       <AllData jotuChe={user} />
 
       <h1>Selected Data</h1>
